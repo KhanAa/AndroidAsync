@@ -334,7 +334,6 @@ public class AsyncNetworkSocket implements AsyncSocket {
         return mServer;
     }
 
-
     public InetSocketAddress getRemoteAddress() {
         return socketAddress;
     }
@@ -353,6 +352,6 @@ public class AsyncNetworkSocket implements AsyncSocket {
 
     @Override
     public String charset() {
-        return null;
+        return "utf-8";
     }
 }
